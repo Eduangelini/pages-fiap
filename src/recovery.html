@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/style.css">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/c46e2ab208.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <title>LogIn Page</title>
+</head>
+
+<body>
+
+  <main class="flex bg-bg-primary w-screen h-screen">
+    <section class="flex flex-col ms-9 bg-bg-primary w-1/2 justify-center sm:max-lg:hidden max-sm:hidden">
+      <h1 class="font-bold text-4xl text-font-secondary mt-7">
+        PSI.CARE
+      </h1>
+      <p class="font-medium text-4xl text-font-secondary mt-2 pe-20">
+        Nunca foi tão fácil fazer a gestão financeira dos seus atendimentos.
+      </p>
+      <p class="font-normal text-xl text-font-secondary mt-2">
+        Vamos te ajudar desde os primeiros passos.
+      </p>
+      <img src="./assets/image.svg" alt="" class="w-auto xl:w-3/4 2xl:w-2/5 mt-10">
+    </section>
+    <section
+      class="text-font-secondary bg-bg-secondary w-1/2 flex flex-col drop-shadow-2xl justify-center 2xl:px-60 xl:px-36 lg:px-16 sm:max-lg:px-44 sm:max-lg:w-full max-sm:w-full max-sm:px-10">
+      <h1 class="lg:hidden mb-8 font-bold text-4xl text-font-secondary mt-2">
+        PSI.CARE
+      </h1>
+      <a href="./login.html" class="flex items-center gap-x-4 mb-6">
+        <i class="fa-solid fa-arrow-left text-xl"></i>
+        <p class="text-lg">Voltar</p>
+      </a>
+      <p class="mb-6 text-xl font-medium">Esqueceu sua senha?</p>
+      <p class="mb-6 text-xl">Preencha abaixo seu endereço de email para receber as instruções necessárias e criar uma
+        nova
+        senha na Hotmart.
+      </p>
+      <form class="flex flex-col mb-2">
+        <input type="text" placeholder="Seu email"
+          class="px-4 py-2 text-base max-sm:text-base rounded-md border-purple border-2 w-full mb-4 bg-bg-secondary focus:outline-none focus:ring-purple focus:ring-0">
+        <a href="./login.html"
+          class="text-center mb-3 py-2 bg-green-600 rounded-md font-medium text-lg max-sm:text-lg text-white hover:bg-green-700">Recuperar
+          minha senha</a>
+      </form>
+
+      <div class="flex gap-x-6 justify-center text-xs">
+        <p>Suporte</p>
+        <p>Termo de uso</p>
+        <p>Política de privacidade</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
